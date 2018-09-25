@@ -2,7 +2,7 @@ import PackageDescription
 
 let package = Package(
     name: "ckafka",
-    pkgConfig: "rdkafka",
+    pkgConfig: "rdkafkacpp",
     providers: [
       .Brew("librdkafka"),
       .Apt("librdkafka-dev")
